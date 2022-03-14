@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+html, body{
+    height: 100%;
+}
+body{
+    background: #4F545D url(image/main-background.png) repeat top left ;
+    display: flex;
+    align-items: center;
+}
+form{
+    margin: 10px auto;
+    margin-top: 70px;
+    background: #f1f2f4;
+    max-width: 475px;
+    width: 90%;
+    height: 475px;
+    border-radius: 3px;
+    box-shadow: 0px 1px 3px rgba(23, 16, 25, 0.75);
+    padding: 0 45px 0 45px;
+
+}
+#clip{
+    width: 110px;
+    margin: 0px auto;
+    margin-top: -77px;
+    position: relative;
+
+}
+   
+#clip img {
+    display: block;
+    margin: 0px auto;
+    margin-top: 0;
+    
+ 
+}
+
+#hole {
+    height: 5px;
+    background: #4F545D url(image/main-background.png) repeat top left ;
+    border-radius: 2.5px;
+    box-shadow: 0px -2px rgba(23, 16, 25, 0.2);
+  
+
+}
+h2{
+    font: roboto;
+    margin-top: 45px;
+    text-align: center;
+    font-size: 36px;
+    color: #36383c;
+}
+p{
+    font-size: 22px;
+    line-height: 30px;
+    color: #7c818b;
+    text-align: center;
+    margin-top: 3px;
+}
+#form-Container{
+    
+    border-radius: 3px;
+    background-color: #e5e7e9;
+    box-shadow: inset 0px 1px 3px rgba(23, 16, 25, 0.4), 0px 2px 0px white;
+}
+input, button{
+    width: 100%;
+    display: block;
+}
+input[type=text], input[type=password]{
+     height: 85px;
+     width: calc(100% - 2px);
+     margin: 0px auto;
+    line-height: 45px;
+    border: none;
+    background-color: transparent;
+    font-size: 24px;
+    color: #6f7278;
+    padding-left: 72px;
+    padding-right: 24px;
+    background-position: 24px center;
+    background-repeat: no-repeat;
+}
+input[type=text]{
+    margin-top: 44px;
+    background-image: url(image/mail-icon.png);
+    border-bottom: 1px solid #bec0c2;
+}
+input[type=password]{
+    background-image: url(image/password-icon.png);
+    border-top: 1px solid white;
+}
+button{
+    height: 74px;
+    margin-top: 23px;
+    font-size: 36px;
+    color: white;
+    background: #50c1b2 url(image/base.png) repeat-x left center ;
+    border: 1px solid #2a8b7b;
+    border-radius: 3px;
+    box-shadow: 0px 1px ;
+    text-shadow: 0px 1px rgba(23, 16, 25, 0.55);
+    cursor: pointer;
+}
